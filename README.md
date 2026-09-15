@@ -1,58 +1,71 @@
-# TarifCep
-Evdeki malzemelere göre yemek, tatlı ve içecek tarifleri öneren Java ve XML tabanlı Android uygulaması.
 
-# TarifCep 🍽️
+<p align="center">
+  <img src="assets/logo.jpeg" width="180" alt="TarifCep Logo">
+</p>
 
-**Elindekileri yaz, ne pişireceğine TarifCep karar versin.**
+<h1 align="center">TarifCep 🍽️</h1>
 
-TarifCep; kullanıcıların evlerinde bulunan ana malzemeleri değerlendirerek uygun yemek, tatlı, hamur işi, kahvaltılık ve içecek tariflerini keşfetmelerine yardımcı olan Android uygulamasıdır.
+<p align="center">
+  <strong>Elindekileri yaz, ne pişireceğine TarifCep karar versin.</strong>
+</p>
+
+TarifCep; kullanıcıların evlerinde bulunan ana malzemeleri değerlendirerek uygun yemek, tatlı, hamur işi, kahvaltılık ve içecek tariflerini keşfetmelerine yardımcı olan Java ve XML tabanlı bir Android uygulamasıdır.
 
 Bu proje, farklı yemekler denemeyi ve evde bulunan malzemeleri değerlendirmeyi seven biri olarak geliştirdiğim ilk Android uygulama çalışmamdır.
 
-## Özellikler
+## 📱 Ekran Görüntüleri
 
-* Evde bulunan malzemelere göre tarif önerme
-* Ana malzemeleri ve temel mutfak malzemelerini ayırt etme
-* Eksiksiz hazırlanabilen tarifleri sonuçların üst sırasında gösterme
-* Birden fazla kategori seçebilme
-* Bir tarifin birden fazla kategoride bulunabilmesi
-* İnternet bağlantısı olmadan yerel tarifleri görüntüleme
-* TheMealDB API aracılığıyla çevrimiçi tarif arama
-* Tarifleri favorilere ekleme
-* Tarif malzemelerini, hazırlanışını ve süre bilgilerini görüntüleme
-* Çevrimiçi tarif fotoğraflarını gösterme
-* Fotoğraf bulunmadığında yerel varsayılan görsel kullanma
+<p align="center">
+  <img src="screenshots/malzeme_secimi.jpeg" width="200" alt="Malzeme Seçimi">
+  <img src="screenshots/onerilen_tarifler.jpeg" width="200" alt="Önerilen Tarifler">
+  <img src="screenshots/detayli_tarif.jpeg" width="200" alt="Tarif Detayı">
+  <img src="screenshots/favori_tarifler.jpeg" width="200" alt="Favori Tarifler">
+</p>
 
-## Tarif kategorileri
+## ✨ Özellikler
 
-* Ana Yemek
-* Çorba
-* Salata
-* Meze
-* Kahvaltı
-* Hamur İşi
-* Pilav ve Makarna
-* Atıştırmalık
-* Tatlı
-* İçecek
+- Evde bulunan malzemelere göre tarif önerme
+- Ana malzemeleri ve temel mutfak malzemelerini ayırt etme
+- Eksiksiz hazırlanabilen tarifleri sonuçların üst sırasında gösterme
+- Birden fazla kategori seçebilme
+- Bir tarifin birden fazla kategoride bulunabilmesi
+- İnternet bağlantısı olmadan yerel tarifleri görüntüleme
+- TheMealDB API aracılığıyla çevrimiçi tarif arama
+- Tarifleri favorilere ekleme
+- Tarif malzemelerini, hazırlanışını ve süre bilgilerini görüntüleme
+- Çevrimiçi tarif fotoğraflarını gösterme
+- Fotoğraf bulunmadığında yerel varsayılan görsel kullanma
+
+## 🍴 Tarif Kategorileri
+
+- Ana Yemek
+- Çorba
+- Salata
+- Meze
+- Kahvaltı
+- Hamur İşi
+- Pilav ve Makarna
+- Atıştırmalık
+- Tatlı
+- İçecek
 
 Tarifler birden fazla kategori etiketi taşıyabilir. Örneğin bir kek tarifi hem **Tatlı** hem de **Hamur İşi** kategorisinde görüntülenebilir.
 
-## Kullanılan teknolojiler
+## 🛠️ Kullanılan Teknolojiler
 
-* Java
-* XML
-* Android Studio
-* Material Design
-* RecyclerView
-* Retrofit
-* OkHttp
-* Gson
-* Glide
-* TheMealDB API
-* JSON
+- Java
+- XML
+- Android Studio
+- Material Design
+- RecyclerView
+- Retrofit
+- OkHttp
+- Gson
+- Glide
+- TheMealDB API
+- JSON
 
-## Uygulamanın çalışma mantığı
+## ⚙️ Uygulamanın Çalışma Mantığı
 
 1. Kullanıcı elindeki ana malzemeleri yazar.
 2. İsterse bir veya birden fazla tarif kategorisi seçer.
@@ -61,21 +74,21 @@ Tarifler birden fazla kategori etiketi taşıyabilir. Örneğin bir kek tarifi h
 5. Eksiksiz hazırlanabilen tarifler ilk sırada gösterilir.
 6. Diğer tarifler eşleşen ve eksik ana malzeme sayılarına göre sıralanır.
 
-## Proje durumu
+## 🚧 Proje Durumu
 
-TarifCep aktif olarak geliştirilmektedir. Bu sürüm uygulamanın ilk çalışan demo sürümüdür. Kullanıcı deneyimi, tarif çeşitliliği, görseller ve çevrimiçi servisler üzerinde geliştirmeler devam etmektedir.
+TarifCep aktif olarak geliştirilmektedir. Bu sürüm, uygulamanın ilk çalışan demo sürümüdür. Kullanıcı deneyimi, tarif çeşitliliği, görseller ve çevrimiçi servisler üzerinde geliştirmeler devam etmektedir.
 
-## Kaynak kod hakkında
+## 🔒 Kaynak Kod Hakkında
 
-Bu repository yalnızca **TarifCep uygulamasının tanıtımı ve geliştirme sürecinin paylaşılması amacıyla** hazırlanmıştır.
+Bu repository yalnızca **TarifCep uygulamasının tanıtılması ve geliştirme sürecinin paylaşılması amacıyla** hazırlanmıştır.
 
-Uygulamanın kaynak kodları açık kaynak değildir ve bu repository içerisinde yayımlanmamaktadır. Tüm hakları saklıdır. 
+Uygulamanın kaynak kodları açık kaynak değildir ve bu repository içerisinde yayımlanmamaktadır. Tüm hakları saklıdır.
 
-## Geliştirici
+## 👩‍💻 Geliştirici
 
-**Buse Ulukaya**
+**Buse Ulukaya**  
 Bilgisayar Mühendisliği öğrencisi
 
 ---
 
-⭐ TarifCep geliştirme sürecini takip etmek için repository’yi yıldızlayabilirsiniz.
+⭐ TarifCep’in geliştirme sürecini takip etmek için repository’yi yıldızlayabilirsiniz.
